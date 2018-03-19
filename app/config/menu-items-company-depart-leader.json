@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "title": "审批",
+      "icon": "fa fa-lg fa-fw fa-file-text-o",
+      "counter": 3,
+      "items": [
+    	   {
+          "route": "/depart/approve/invite",
+          "title": "邀请"
+         },
+        {
+          "route": "/depart/approve/visitor",
+          "title": "访客"
+        },
+       {
+         "route": "/depart/approve/staff",
+         "title": "员工"
+       }
+      ]
+    },
+    {
+      "title": "拜访",
+      "route": "/depart/visit/detail",
+      "icon": "fa fa-lg fa-fw fa-file-text"
+    },
+    {
+      "title": "邀请",
+      "route": "/depart/invite/tab",
+      "icon": "fa fa-lg fa-fw fa-twitter"
+    },
+    {
+      "title": "人员",
+      "icon": "fa fa-lg fa-fw fa-child",
+      "items": [
+    	   {
+          "route": "/depart/staff/personal",
+          "title": "员工"
+         },
+        {
+          "route": "/depart/staff/visitor",
+          "title": "访客"
+        }
+      ]
+    }
+
+  ]
+}

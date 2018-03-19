@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "title": "拜访",
+      "route": "/reception/visit/detail",
+      "icon": "fa fa-lg fa-fw fa-file-text"
+    },
+    {
+      "title": "人员",
+      "icon": "fa fa-lg fa-fw fa-group",
+      "items": [
+    	   {
+          "route": "/reception/staff/personal",
+          "title": "个人信息"
+         },
+        {
+          "route": "/reception/staff/visitor",
+          "title": "访客"
+        }
+      ]
+    }
+  ]
+}

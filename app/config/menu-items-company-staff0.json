@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "title": "待确认",
+      "icon": "fa fa-lg fa-fw fa-exclamation-circle",
+      "counter": 6,
+      "items": [
+         {
+          "route": "/staff/check/reservation",
+          "title": "预约确认"
+         },
+        {
+          "route": "/staff/check/visitor",
+          "title": "访客确认"
+        }
+      ]
+    },
+    {
+      "title": "来访统计",
+      "route": "/staff/visit/detail",
+      "icon": "fa fa-lg fa-fw fa-bar-chart-o"
+    },
+    {
+      "title": "邀请管理",
+      "route": "/staff/invite/tab",
+      "icon": "fa fa-lg fa-fw fa-table"
+    },
+    {
+      "title": "访客维护",
+      "route": "/staff/staff/visitor",
+      "icon": "fa fa-lg fa-fw fa-group"
+    },
+    {
+      "title": "个人信息",
+      "route": "/staff/staff/personal",
+      "icon": "fa fa-lg fa-fw fa-user"
+    }
+  ]
+}

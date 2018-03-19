@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "title": "审批",
+      "route": "/platform/approve",
+      "icon": "fa fa-lg fa-fw fa-file-text-o",
+      "counter": 3
+    },
+    {
+      "title": "公司",
+      "route": "/platform/company",
+      "icon": "fa fa-lg fa-fw fa-group"
+    },
+    {
+      "title": "管理",
+      "icon": "fa fa-lg fa-fw fa-cog",
+      "items": [
+    	   {
+          "route": "/platform/account",
+          "title": "帐号管理"
+         },
+        {
+          "route": "/platform/config",
+          "title": "平台配置"
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "title": "员工审批",
+      "route": "/company/approve",
+      "icon": "fa fa-lg fa-fw fa-file-text-o",
+      "counter": 3
+    },
+    {
+      "title": "来访统计",
+      "route": "/company/visit/detail",
+      "icon": "fa fa-lg fa-fw fa-bar-chart-o"
+    },
+    {
+      "title": "邀请管理",
+      "route": "/company/invite/record",
+      "icon": "fa fa-lg fa-fw fa-table"
+    },
+    {
+      "title": "访客维护",
+      "route": "/company/company/visitor",
+      "icon": "fa fa-lg fa-fw fa-group"
+    },
+    {
+      "title": "公司管理",
+      "icon": "fa fa-lg fa-fw fa-bank",
+      "items": [
+    	   {
+          "route": "/company/company/info",
+          "title": "公司信息"
+         },
+        {
+          "route": "/company/company/depart",
+          "title": "部门管理"
+        },
+        {
+          "route": "/company/company/staff",
+          "title": "员工管理"
+        },
+        {
+          "route": "/company/company/role",
+          "title": "角色配置"
+        }
+      ]
+    },
+    {
+      "title": "系统设置",
+      "route": "/company/company/config",
+      "icon": "fa fa-lg fa-fw fa-cog"
+    }
+  ]
+}

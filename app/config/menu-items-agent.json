@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "title": "公司",
+      "route": "/agent/company",
+      "icon": "fa fa-lg fa-fw fa-file-text-o"
+    }
+
+  ]
+}

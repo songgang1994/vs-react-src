@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "title": "访客",
+      "route": "/visitor",
+      "icon": "fa fa-lg fa-fw fa-inbox"
+    },
+    {
+      "title": "公司",
+      "route": "/company",
+      "icon": "fa fa-lg fa-fw fa-inbox"
+    },
+    {
+      "title": "邀请",
+      "route": "/company",
+      "icon": "fa fa-lg fa-fw fa-inbox"
+    },
+    {
+      "title": "人员",
+      "route": "/company",
+      "icon": "fa fa-lg fa-fw fa-inbox"
+    },
+    {
+      "title": "自定义设置",
+      "route": "/company",
+      "icon": "fa fa-lg fa-fw fa-inbox"
+    }
+
+  ]
+}
